@@ -1,0 +1,33 @@
+.item1{ grid-area: A; 
+    background-color: mediumspringgreen;  }
+.item2{ grid-area: B; 
+     background-color: rgb(253, 177, 34);}
+.item3{ grid-area: C;
+background-color: rgb(140, 247, 33);
+line-height: 100px;}
+.item4{ grid-area: D;
+background-color: darkmagenta;}
+.item5{ grid-area: E;
+background-color: rgb(230, 20, 177);}
+.item6{ grid-area: F;
+background-color: rgb(13, 117, 202);}
+
+.table{
+    display: grid;
+    grid-template-areas: 
+    'A B D'
+    'E C C'
+    'F C C';
+    background-color: skyblue;
+    padding: 10px;
+    grid-gap: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+}
+.table div{
+    
+    text-align: center;
+    padding: 35px;
+    font-size: 20px;
+}
